@@ -37,9 +37,8 @@
     "unicorn-fun": "^0.0.0"
   },
   "lint-staged": {
-    "*.js":[
-      "xo --fix",
-      "git add"
+    "*.(js|json)":[
+      "xo --fix"
     ]
   },
   "xo": {
